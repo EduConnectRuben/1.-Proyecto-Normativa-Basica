@@ -129,7 +129,9 @@ function leerConPausas(texto) {
 
 function actualizarIconoPausa() {
     if (pauseResumeBtn) {
-        pauseResumeBtn.innerHTML = isPaused ? '▶️' : '⏸️';
+        pauseResumeBtn.innerHTML = isPaused ? 
+            '<i class="fas fa-play icon"></i>' : 
+            '<i class="fas fa-pause icon"></i>';
     }
 }
 
