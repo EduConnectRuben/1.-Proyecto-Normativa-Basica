@@ -1,7 +1,7 @@
 {
   "name": "Calculadoras Educativas Pro",
-  "short_name": "Calculadoras",
-  "description": "Suite profesional de calculadoras multifuncionales para estudiantes e ingenieros: Aritmética, Geometría Analítica, Sistemas de Ecuaciones, Lógica Proposicional y más.",
+  "short_name": "Normativa Basica",
+  "description": "Normativa Basica",
   "start_url": "/index.html",
   "scope": "/",
   "display": "standalone",

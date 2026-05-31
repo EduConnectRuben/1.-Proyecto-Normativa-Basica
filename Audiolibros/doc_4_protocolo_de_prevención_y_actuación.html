@@ -9,7 +9,8 @@
     <meta name="description" content="1. Normativa Básica - Material de Estudio Oficial para el Examen de Ascenso de Categoría 2026.">
     <meta property="og:title" content="1. Normativa Básica - EduConnectRuben">
     <meta property="og:description" content="Estudia con Simuladores de Examen, Flashcards, Audiolibros y Audios Resumidos. ¡Prepárate para el Ascenso 2026!">
-    <meta property="og:image" content="../images/logo.png">
+    <meta property="og:image" content="https://proyecto-normativa-basica.netlify.app/images/logo.png">
+    <meta property="og:url" content="https://proyecto-normativa-basica.netlify.app/">
     <meta property="og:type" content="website">
     
     <!-- PWA Settings -->
@@ -18,6 +19,17 @@
     
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../preguntas.css">
+    <style>
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .hero-title { font-size: 1.8rem !important; }
+            .hero-subtitle { font-size: 1rem !important; }
+            .header-title { font-size: 1.1rem !important; }
+            .header-subtitle { font-size: 0.9rem !important; }
+            .footer-text { font-size: 0.85rem !important; line-height: 1.5; padding: 0 10px; }
+            .logo-header { width: 45px !important; height: 45px !important; }
+        }
+    </style>
     <link rel="stylesheet" href="../lectura.css">
 </head>
 <body>
@@ -29,12 +41,12 @@
                 <span style="color: white; font-weight: bold; font-size: 1.1rem;">Llámanos</span>
             </a>
         </div>
-        <div style="text-align: center; color: white;">
-            <h1 style="margin: 0; font-size: 1.6rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.3); font-weight: 800;">ASCENSO DE CATEGORÍA - 2026</h1>
-            <h2 style="margin: 5px 0 0 0; font-size: 1.2rem; font-weight: 500; letter-spacing: 1px;">"EduConnectRuben"</h2>
+        <div style="text-align: center; color: white; flex: 1; padding: 0 10px;">
+            <h1 class="header-title" style="margin: 0; font-size: 1.6rem; text-shadow: 1px 1px 3px rgba(0,0,0,0.3); font-weight: 800;">ASCENSO DE CATEGORÍA - 2026</h1>
+            <h2 class="header-subtitle" style="margin: 5px 0 0 0; font-size: 1.2rem; font-weight: 500; letter-spacing: 1px;">"EduConnectRuben"</h2>
         </div>
         <div style="display: flex; align-items: center; gap: 10px;">
-            <img src="../icons/logoRuben.png" alt="Logo" style="width: 55px; height: 55px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
+            <img class="logo-header" src="../icons/logoRuben.png" alt="Logo" style="width: 55px; height: 55px; border-radius: 50%; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">
         </div>
     </header>
     
@@ -181,7 +193,7 @@
             <a href="https://api.whatsapp.com/send/?phone=59174420831&text=Hola%2C%0A%0AEstoy%20muy%20interesado%20en%20los%20cursos%20y%20tutor%C3%ADas%20que%20ofrecen.%20%C2%BFPodr%C3%ADan%20proporcionarme%20m%C3%A1s%20informaci%C3%B3n%20al%20respecto%2C%20por%20favor%3F%20%0A%0A%C2%A1Gracias%21" target="_blank" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><img src="../icons/whatsapp.png" alt="WhatsApp" style="width: 40px; height: 40px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"></a>
             <a href="https://www.facebook.com/people/EduConnect-Ruben/61577612011958/?mibextid=ZbWKwL" target="_blank" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"><img src="../icons/facebook.png" alt="Facebook" style="width: 40px; height: 40px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"></a>
         </div>
-        <div style="font-size: 1rem; opacity: 0.9;">© 2026 Todos los derechos reservados. | EduConnectRuben</div>
+        <div class="footer-text" style="font-size: 1rem; opacity: 0.9; margin-top: 10px;">© 2026 Todos los derechos reservados. | EduConnectRuben</div>
     </footer>
     
     
